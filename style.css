@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+header {
+  background-color: rgb(102, 102, 187);
+  color: yellow;
+  text-align: center;
+  height: 8rem;
+  padding-top: 2rem;
+}
+
+/* CARDS */
+#container {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 6rem;
+  width: 100vw;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card img {
+  border-radius: 30%;
+}
+/* FOOTER */
+footer {
+  background-color: gray;
+  color: white;
+  font-size: 1.5rem;
+  height: 5rem;
+  text-align: center;
+  padding-top: 2rem;
+}
